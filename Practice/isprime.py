@@ -1,0 +1,11 @@
+def is_prime(x):
+    if x == 1:
+        return False
+    for n in range(2,x):
+        test = (x % n)
+        if test == 0:
+            return False
+            break
+            
+    else:
+        return True
